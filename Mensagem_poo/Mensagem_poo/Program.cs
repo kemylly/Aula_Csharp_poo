@@ -15,9 +15,12 @@ namespace Mensagem_poo
             Mensagem msg1, msg2;
             
             msg1 = new Mensagem(); //construtor / criou o objeto / deu vida
-            //msg1.TextoMensagem = "Alo mundo"; //metodos
-            msg1.setTextoMensagem("Alo mundo");
-            Console.WriteLine(msg1.getTextoMensagem());
+
+            //msg1.TextoMensagem = "Alo mundo"; //metodos 1
+            //msg1.setTextoMensagem("Alo mundo"); // 2
+            msg1.TextoMensagem = "Alo mundo"; // 3
+            
+            //Console.WriteLine(msg1.getTextoMensagem());
 
             msg1.ExibirMensagem();
             //Console.WriteLine(msg1.TextoMensagem);
