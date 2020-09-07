@@ -10,16 +10,17 @@ namespace CalculaIdade_poo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Programa que aula a idade de um usuario");
+            Console.WriteLine("Programa que calcula a idade de um usuario");
             Pessoa p = new Pessoa();
 
             Console.Write("Digite seu nome: ");
             p.Nome = Console.ReadLine();
 
-            Console.Write("Digite seu Ano de Nascimento");
+            Console.Write("Digite seu Ano de Nascimento: ");
             p.AnoNascimento = Convert.ToInt32(Console.ReadLine());
 
-            p.Exibirdados();
+            //Console.WriteLine(p.Idade); //terceiro jeito de fazer
+            //p.Exibirdados();  //chamo os metodos
 
             Console.ReadKey();
         }
