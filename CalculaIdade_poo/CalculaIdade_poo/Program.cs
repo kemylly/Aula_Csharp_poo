@@ -6,10 +6,22 @@ using System.Threading.Tasks;
 
 namespace CalculaIdade_poo
 {
-    class Program
+    class Program  //classe principal
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Programa que aula a idade de um usuario");
+            Pessoa p = new Pessoa();
+
+            Console.Write("Digite seu nome: ");
+            p.Nome = Console.ReadLine();
+
+            Console.Write("Digite seu Ano de Nascimento");
+            p.AnoNascimento = Convert.ToInt32(Console.ReadLine());
+
+            p.Exibirdados();
+
+            Console.ReadKey();
         }
     }
 }

@@ -1,0 +1,7 @@
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\CalculaIdade_poo\CalculaIdade_poo\bin\Debug\CalculaIdade_poo.exe.config
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\CalculaIdade_poo\CalculaIdade_poo\bin\Debug\CalculaIdade_poo.exe
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\CalculaIdade_poo\CalculaIdade_poo\bin\Debug\CalculaIdade_poo.pdb
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\CalculaIdade_poo\CalculaIdade_poo\obj\Debug\CalculaIdade_poo.csprojAssemblyReference.cache
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\CalculaIdade_poo\CalculaIdade_poo\obj\Debug\CalculaIdade_poo.csproj.CoreCompileInputs.cache
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\CalculaIdade_poo\CalculaIdade_poo\obj\Debug\CalculaIdade_poo.exe
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\CalculaIdade_poo\CalculaIdade_poo\obj\Debug\CalculaIdade_poo.pdb
