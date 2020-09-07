@@ -1,0 +1,7 @@
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\Mensagem_poo\Mensagem_poo\bin\Debug\Mensagem_poo.exe.config
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\Mensagem_poo\Mensagem_poo\bin\Debug\Mensagem_poo.exe
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\Mensagem_poo\Mensagem_poo\bin\Debug\Mensagem_poo.pdb
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\Mensagem_poo\Mensagem_poo\obj\Debug\Mensagem_poo.csprojAssemblyReference.cache
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\Mensagem_poo\Mensagem_poo\obj\Debug\Mensagem_poo.csproj.CoreCompileInputs.cache
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\Mensagem_poo\Mensagem_poo\obj\Debug\Mensagem_poo.exe
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\Mensagem_poo\Mensagem_poo\obj\Debug\Mensagem_poo.pdb

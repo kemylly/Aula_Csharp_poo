@@ -1,0 +1,30 @@
+poo - programaçao orientada a objeto
+paradigma de programação
+
+objetos, metodos, classes
+
+4 pilares:
+abstração, encapsulamento, herança e polimorfismo
+
+abstracao, pegar algo do mundo real e tranforma-lo para a linguagem 
+computacional. sera compsto por uma identidade (nome), propriedades 
+(caracteristicas) e metodos (acoes).
+
+encapsulamento, proteger o que o objeto possui, dados, metodos. Variaveis
+que nao podem ser manipuladas diretamente.
+
+hernaça, reaproveitamento do codigo fonte, uma classe pode herdar
+caracteriscas de outras classes. Herdar seus metodos.
+
+polimorfismo, alterar sua forma connforme a necessidade. Alterar 
+caracteristicas de um objeto herdado.
+
+criar uma classe, instanciar um objeto, criar propriedades e metodos
+
+criar metodos de acesso para classes privadas
+
+
+
+
+
+
