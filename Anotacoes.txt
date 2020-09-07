@@ -23,6 +23,8 @@ criar uma classe, instanciar um objeto, criar propriedades e metodos
 
 criar metodos de acesso para classes privadas
 
+propfull + tab
+
 
 
 

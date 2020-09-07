@@ -1,0 +1,7 @@
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\Exer_MaiorIdade\Exer_MaiorIdade\bin\Debug\Exer_MaiorIdade.exe.config
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\Exer_MaiorIdade\Exer_MaiorIdade\bin\Debug\Exer_MaiorIdade.exe
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\Exer_MaiorIdade\Exer_MaiorIdade\bin\Debug\Exer_MaiorIdade.pdb
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\Exer_MaiorIdade\Exer_MaiorIdade\obj\Debug\Exer_MaiorIdade.csprojAssemblyReference.cache
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\Exer_MaiorIdade\Exer_MaiorIdade\obj\Debug\Exer_MaiorIdade.csproj.CoreCompileInputs.cache
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\Exer_MaiorIdade\Exer_MaiorIdade\obj\Debug\Exer_MaiorIdade.exe
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\Exer_MaiorIdade\Exer_MaiorIdade\obj\Debug\Exer_MaiorIdade.pdb
