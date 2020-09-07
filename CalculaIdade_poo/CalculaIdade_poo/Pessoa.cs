@@ -8,6 +8,14 @@ namespace CalculaIdade_poo
 {
     public class Pessoa //objeto que for do tipo pessoa
     {
+
+		public Pessoa(String nomePessoa, int anoNascimentoPessoa)  //4 modo de fazer / construtor com ou sem paramentro
+		{
+			this.Nome = nomePessoa; //pode  receber um valor fixo ou parametro
+			this.AnoNascimento = anoNascimentoPessoa;
+			this.CalcularIdade(); //define  a propriedade idade com os parametros
+		}
+
 		private int anoNascimento; //caracteristica
 
 		public int AnoNascimento

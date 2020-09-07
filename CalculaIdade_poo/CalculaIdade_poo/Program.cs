@@ -10,9 +10,14 @@ namespace CalculaIdade_poo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Programa que calcula a idade de um usuario");
-            Pessoa p = new Pessoa();
+            Console.WriteLine("Programa que calcula a idade de um usuario");  //desde o primeiro jeito
+                                                                              //Pessoa p = new Pessoa();  //construtor / desde o primeiro jeito
 
+            //Pessoa p = new Pessoa("kemylly", 2002); //quarto modo p2
+            //p.Exibirdados();  //quarto modo p2
+            // Console.WriteLine(p.Nome); // quarto modo de fazer p1
+
+            /* //primeiro jeiro de exibir
             Console.Write("Digite seu nome: ");
             p.Nome = Console.ReadLine();
 
@@ -21,8 +26,21 @@ namespace CalculaIdade_poo
 
             //Console.WriteLine(p.Idade); //terceiro jeito de fazer
             //p.Exibirdados();  //chamo os metodos
+            */
 
-            Console.ReadKey();
+            Console.Write("Digite seu nome: ");
+            String Nome = Console.ReadLine();
+
+            Console.Write("Digite seu Ano de Nascimento: ");
+            int ano = Convert.ToInt32(Console.ReadLine());
+
+            Pessoa p;
+            p = new Pessoa(Nome, ano);
+            
+            p.Exibirdados();  //chamo os metodos
+
+
+            Console.ReadKey();  //para o  programa / basico
         }
     }
 }
