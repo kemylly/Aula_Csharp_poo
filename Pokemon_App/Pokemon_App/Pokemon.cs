@@ -52,5 +52,20 @@ namespace Pokemon_App
 			Console.WriteLine("Nome do Pokemon: " + this.Nome);
 			Console.WriteLine("Descricao do Pokemon: " + this.Descricao);
 		}
+
+		public void ExibirDadosPokemon(Boolean formatado)  //metodos
+		{
+			if(formatado == true)
+			{
+				Console.WriteLine("Pokemon " + this.Nome + ": " + this.Descricao.ToUpper());
+
+			}
+			else
+			{
+				Console.WriteLine("Nome do Pokemon: " + this.Nome);
+				Console.WriteLine("Descricao do Pokemon: " + this.Descricao);
+			}
+			
+		}
 	}
 }
