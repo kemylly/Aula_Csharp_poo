@@ -11,15 +11,19 @@ namespace Pokemon_App
         static void Main(string[] args)
         {
             //Pokemon p = new Pokemon();
-            Pokemon p1 = new Pokemon();
-            Pokemon p = new Pokemon("Bulbasauro", "Bulbasauro é um pokemon tipo planta..."); //culpa da sobrecarga
+            // Pokemon p1 = new Pokemon();
+            //Pokemon p = new Pokemon("Bulbasauro", "Bulbasauro é um pokemon tipo planta..."); //culpa da sobrecarga
 
-
-           // p.Nome = "Bulbasauro";
+            // p.Nome = "Bulbasauro";
             //p.Descricao = "Bulbasauro é um pokemon tipo planta...";
-            
-            p.ExibirDadosPokemon(true);
-            
+
+            //p.ExibirDadosPokemon(true);
+
+            Pokedex pokedex = new Pokedex();
+            Pokemon p = pokedex.Pokemons[1];
+
+            p.ExibirDadosPokemon();
+
             Console.ReadKey();
         }
     }
