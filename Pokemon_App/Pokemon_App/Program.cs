@@ -10,6 +10,11 @@ namespace Pokemon_App
     {
         static void Main(string[] args)
         {
+            Pokemon p = new Pokemon();
+            p.Nome = "Bulbasauro";
+            p.Descricao = "Bulbasauro é um pokemon tipo planta...";
+            p.ExibirDadosPokemon();
+            Console.ReadKey();
         }
     }
 }

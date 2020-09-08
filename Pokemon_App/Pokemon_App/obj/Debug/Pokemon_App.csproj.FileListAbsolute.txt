@@ -1,0 +1,7 @@
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\Pokemon_App\Pokemon_App\bin\Debug\Pokemon_App.exe.config
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\Pokemon_App\Pokemon_App\bin\Debug\Pokemon_App.exe
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\Pokemon_App\Pokemon_App\bin\Debug\Pokemon_App.pdb
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\Pokemon_App\Pokemon_App\obj\Debug\Pokemon_App.csprojAssemblyReference.cache
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\Pokemon_App\Pokemon_App\obj\Debug\Pokemon_App.csproj.CoreCompileInputs.cache
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\Pokemon_App\Pokemon_App\obj\Debug\Pokemon_App.exe
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\Pokemon_App\Pokemon_App\obj\Debug\Pokemon_App.pdb
