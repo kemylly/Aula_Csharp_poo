@@ -64,6 +64,8 @@ namespace Pokemon_App
 		{
 			for (int i = 0; i < this.Pokemons.Count; i++) //count conta quantos elementos tem
 			{
+				Console.WriteLine("Codigo do pokemon: " + i);  //lista os numeros do pokemon
+
 				//this.Pokemons[i].ExibirDadosPokemon(); Comando unico para tudo
 				Pokemon p = this.Pokemons[i];
 				p.ExibirDadosPokemon();

@@ -15,7 +15,7 @@ namespace Pokemon_App
 
 		public Pokemon_plus(String nome, String descricao, int poder):base(nome, descricao)  //utiliza o construtor da outra classe
 		{
-			this.Poder = 0;
+			this.Poder = poder;
 		}
 
 		private int poder;  //propriedade

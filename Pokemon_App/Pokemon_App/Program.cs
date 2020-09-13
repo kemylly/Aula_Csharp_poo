@@ -35,6 +35,54 @@ namespace Pokemon_App
                     pokedex.ListarPokemoons();
                     Console.ReadKey();
                 }
+                if(resp == 2)
+                {
+                    pokedex.ListarPokemoons();
+
+                    Console.WriteLine(" ");
+                    Console.Write("Digite o codigo do pokemon escolhido: ");
+                    int codigo = Convert.ToInt32(Console.ReadLine());
+                    
+                    //pegar o pokemon do player
+                    Pokemon_plus pPlayer = pokedex.Pokemons[codigo];
+
+                    //definir o pokemon do pc
+                    Random r = new Random();
+                    codigo = r.Next(0, pokedex.Pokemons.Count);
+                    Pokemon_plus pPC = pokedex.Pokemons[codigo];
+
+                    Console.Clear();
+
+                    //batalhar
+                    Console.WriteLine("Dados do seu pokemon:");
+                    //Console.WriteLine("Nivel de poder: " + pPlayer.Poder);
+                    pPlayer.ExibirDadosPokemonPlus();
+
+                    Console.WriteLine(" ");
+
+                    Console.WriteLine("Dados do pokemon PC:");
+                    //Console.WriteLine("Nivel de poder: " + pPlayer.Poder);
+                    pPC.ExibirDadosPokemonPlus();
+
+                    if (pPlayer.Poder >= pPC.Poder)
+                    {
+
+                        //Console.Clear();
+
+                        Console.WriteLine(" ");
+
+                        Console.WriteLine(" *** Winner :) ***  ");
+                        
+                        Console.ReadKey();
+                    }
+                    else
+                    {
+                        Console.Clear();
+                        Console.WriteLine(" *** Game over :( *** ");
+                        Console.ReadKey();
+                    }
+                }
+
                 //Console.ReadKey();
                 Console.Clear();
             }
@@ -44,12 +92,14 @@ namespace Pokemon_App
 
         static int Menu()
         {
-            Console.WriteLine("Pokedex - Agenda Pookemon :) ");
+            Console.WriteLine("Pokemon - Agenda e jogo Pookemon :) ");
             Console.WriteLine("Escolha uma opcao: ");
-            Console.WriteLine("0 - Sair da Pokedex");
-            Console.WriteLine("1 - Listar todos os pokemons");
+            Console.WriteLine("0 - Sair");
+            Console.WriteLine("1 - Listar todos os pokemons da pokedex");
+            Console.WriteLine("2 - Batalhar");
             Console.Write("Resposta: ");
-           
+            
+
             int resp = Convert.ToInt32(Console.ReadLine());
             return resp;
         }
