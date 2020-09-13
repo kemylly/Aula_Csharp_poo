@@ -1,0 +1,7 @@
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\Frases_poo\Frases_poo\bin\Debug\Frases_poo.exe.config
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\Frases_poo\Frases_poo\bin\Debug\Frases_poo.exe
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\Frases_poo\Frases_poo\bin\Debug\Frases_poo.pdb
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\Frases_poo\Frases_poo\obj\Debug\Frases_poo.csprojAssemblyReference.cache
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\Frases_poo\Frases_poo\obj\Debug\Frases_poo.csproj.CoreCompileInputs.cache
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\Frases_poo\Frases_poo\obj\Debug\Frases_poo.exe
+C:\Users\Kemily\Documents\Quarentena\Aula_Csharp_poo\Frases_poo\Frases_poo\obj\Debug\Frases_poo.pdb

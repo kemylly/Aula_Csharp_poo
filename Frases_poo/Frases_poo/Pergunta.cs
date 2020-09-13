@@ -8,6 +8,10 @@ namespace Frases_poo
 {
     public class Pergunta
     {
+		/*public String testA;
+		private String testB;
+		protected String testC; */
+
 		public Pergunta() //construtor //armazenada em tempo de construcao
 		{
 			this.Texto = "";
