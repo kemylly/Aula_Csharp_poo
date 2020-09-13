@@ -33,8 +33,9 @@ namespace Pokemon_App
                 if(resp == 1)
                 {
                     pokedex.ListarPokemoons();
+                    Console.ReadKey();
                 }
-                Console.ReadKey();
+                //Console.ReadKey();
                 Console.Clear();
             }
 

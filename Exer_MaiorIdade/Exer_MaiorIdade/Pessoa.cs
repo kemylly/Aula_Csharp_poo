@@ -56,6 +56,7 @@ namespace Exer_MaiorIdade
 		{
 			Console.WriteLine("Nome: " + this.Nome); //vou escrever isso na tela quando for chamado
 			Console.WriteLine("Idade: " + this.Idade);
+
 		}
 	}
 }

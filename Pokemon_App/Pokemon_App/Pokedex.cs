@@ -14,9 +14,9 @@ namespace Pokemon_App
 			this.InicializaLista();
 		}
 
-		private List<Pokemon> pokemons;  // uma proprieda utiliza um objeto como referencia
+		private List<Pokemon_plus> pokemons;  // uma propriedade utiliza um objeto como referencia
 
-		public List<Pokemon> Pokemons
+		public List<Pokemon_plus> Pokemons
 		{
 			get 
 			{ 
@@ -27,36 +27,36 @@ namespace Pokemon_App
 		private void InicializaLista()
 		{
 			//Instanciar a lista
-			this.pokemons = new List<Pokemon>();
+			this.pokemons = new List<Pokemon_plus>();
 
-			Pokemon p = new Pokemon("Bulbasauro", "Pokemon tipo planta"); //objeto do tipo pokemon
+			Pokemon_plus p = new Pokemon_plus("Bulbasauro", "Pokemon tipo planta", 60); //objeto do tipo pokemon
 			this.pokemons.Add(p);
 
-			p = new Pokemon("Pikachu", "Pokemon tipo raio");
+			p = new Pokemon_plus("Pikachu", "Pokemon tipo raio", 100);
 			this.pokemons.Add(p);
 
-			p = new Pokemon("Chamander", "Pokemon tipo fogo");
+			p = new Pokemon_plus("Chamander", "Pokemon tipo fogo", 90);
 			this.pokemons.Add(p);
 
-			p = new Pokemon("Pichu", "Pokemon tipo raio");
+			p = new Pokemon_plus("Pichu", "Pokemon tipo raio", 75);
 			this.pokemons.Add(p);
 
-			p = new Pokemon("Raiuchu", "Pokemon tipo raio");
+			p = new Pokemon_plus("Raiuchu", "Pokemon tipo raio", 80);
 			this.pokemons.Add(p);
 
-			p = new Pokemon("Squirtle", "Pokemon tipo agua");
+			p = new Pokemon_plus("Squirtle", "Pokemon tipo agua", 65);
 			this.pokemons.Add(p);
 
-			p = new Pokemon("Mew", "Lendario psiquico");
+			p = new Pokemon_plus("Mew", "Lendario psiquico", 100);
 			this.pokemons.Add(p);
 
-			p = new Pokemon("Zubat", "Pokemon tipo Poçao");
+			p = new Pokemon_plus("Zubat", "Pokemon tipo Poçao", 60);
 			this.pokemons.Add(p);
 
-			p = new Pokemon("Electabuzz", "Pokemon tipo  Electric ");
+			p = new Pokemon_plus("Electabuzz", "Pokemon tipo  Electric" , 85);
 			this.pokemons.Add(p);
 
-			p = new Pokemon("Venusaur", "Pokemon tipo planta");
+			p = new Pokemon_plus("Venusaur", "Pokemon tipo planta", 70);
 			this.pokemons.Add(p);
 		}
 
