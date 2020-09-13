@@ -59,5 +59,15 @@ namespace Pokemon_App
 			p = new Pokemon("Venusaur", "Pokemon tipo planta");
 			this.pokemons.Add(p);
 		}
+
+		public void ListarPokemoons()
+		{
+			for (int i = 0; i < this.Pokemons.Count; i++) //count conta quantos elementos tem
+			{
+				//this.Pokemons[i].ExibirDadosPokemon(); Comando unico para tudo
+				Pokemon p = this.Pokemons[i];
+				p.ExibirDadosPokemon();
+			}
+		}
 	}
 }

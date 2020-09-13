@@ -20,11 +20,37 @@ namespace Pokemon_App
             //p.ExibirDadosPokemon(true);
 
             Pokedex pokedex = new Pokedex();
-            Pokemon p = pokedex.Pokemons[1];
 
-            p.ExibirDadosPokemon();
+            //Pokemon p = pokedex.Pokemons[1];
+            //p.ExibirDadosPokemon();
 
-            Console.ReadKey();
+            //pokedex.ListarPokemoons(); lista o pokemom - 3 comandos
+
+            int resp = 100;
+            while (resp != 0)
+            {
+                resp = Menu();
+                if(resp == 1)
+                {
+                    pokedex.ListarPokemoons();
+                }
+                Console.ReadKey();
+                Console.Clear();
+            }
+
+            //Console.ReadKey();
+        }
+
+        static int Menu()
+        {
+            Console.WriteLine("Pokedex - Agenda Pookemon :) ");
+            Console.WriteLine("Escolha uma opcao: ");
+            Console.WriteLine("0 - Sair da Pokedex");
+            Console.WriteLine("1 - Listar todos os pokemons");
+            Console.Write("Resposta: ");
+           
+            int resp = Convert.ToInt32(Console.ReadLine());
+            return resp;
         }
     }
 }
