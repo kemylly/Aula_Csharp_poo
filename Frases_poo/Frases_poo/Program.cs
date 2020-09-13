@@ -10,6 +10,7 @@ namespace Frases_poo
     {
         static void Main(string[] args)
         {
+            Pergunta p = new Pergunta();
         }
     }
 }
