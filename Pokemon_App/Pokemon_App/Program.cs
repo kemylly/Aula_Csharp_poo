@@ -64,23 +64,35 @@ namespace Pokemon_App
                     //Console.WriteLine("Nivel de poder: " + pPlayer.Poder);
                     pPC.ExibirDadosPokemonPlus();
 
-                    if (pPlayer.Poder >= pPC.Poder)
+                    if (pPlayer.Poder > pPC.Poder)
                     {
 
                         //Console.Clear();
 
                         Console.WriteLine(" ");
-
                         Console.WriteLine(" *** Winner :) ***  ");
-                        
+
                         Console.ReadKey();
                     }
+                    else if (pPlayer.Poder == pPC.Poder)
+                    {
+
+                        Console.WriteLine(" ");
+                        Console.WriteLine(" *** Empate :/ ***  ");
+
+                        Console.ReadKey();
+                    }
+
                     else
                     {
-                        Console.Clear();
+                        //Console.Clear();
+                        Console.WriteLine(" ");
                         Console.WriteLine(" *** Game over :( *** ");
+
                         Console.ReadKey();
                     }
+                    
+                    
                 }
 
                 //Console.ReadKey();

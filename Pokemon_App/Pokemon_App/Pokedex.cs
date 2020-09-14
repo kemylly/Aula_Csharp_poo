@@ -41,7 +41,7 @@ namespace Pokemon_App
 			p = new Pokemon_plus("Pichu", "Pokemon tipo raio", 75);
 			this.pokemons.Add(p);
 
-			p = new Pokemon_plus("Raiuchu", "Pokemon tipo raio", 80);
+			p = new Pokemon_plus("Raiuchu", "Pokemon tipo raio", 60);
 			this.pokemons.Add(p);
 
 			p = new Pokemon_plus("Squirtle", "Pokemon tipo agua", 65);

@@ -29,7 +29,7 @@ namespace Pokemon_App
 		{
 			Console.WriteLine("Nome do Pokemon: " + this.Nome);
 			Console.WriteLine("Descricao do Pokemon: " + this.Descricao);
-			Console.WriteLine("Nivel de poder" + this.Poder);
+			Console.WriteLine("Nivel de poder: " + this.Poder);
 		}
 	}
 }
